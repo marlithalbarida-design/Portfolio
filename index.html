@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Nicole - Aspiring Web Developer and IT Student. Portfolio showcasing projects, skills, and experience.">
+    <title>Nicole | Aspiring Web Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body class="light-theme">
+
+    <header id="header">
+        <div class="header-container">
+            <div class="logo">
+                <a href="#home">Nicole</a>
+            </div>
+            <nav class="navbar" id="navbar">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+            <div class="header-actions">
+                <button id="theme-toggle" aria-label="Toggle Light/Dark Mode">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <button id="mobile-menu-toggle" class="mobile-menu-btn" aria-label="Toggle Mobile Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero section">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <p class="tagline">
+                            <span class="tagline-icon"><i class="fas fa-code"></i></span>
+                            Aspiring Web Developer | IT Student
+                        </p>
+                        <h1 class="hero-title">
+                            <span class="greeting">Hi, I'm</span>
+                            <span class="name">Nicole</span>
+                        </h1>
+                        <p class="quote">
+                            <i class="fas fa-quote-left"></i>
+                            "The only way to do great work is to love what you do."
+                            <i class="fas fa-quote-right"></i>
+                        </p>
+                        <p class="hero-description">
+                            Success is not final, failure is not fatal: it is the courage to continue that counts. ' 
+                            - Winston Churchill
+                        </p>
+                        <div class="hero-buttons">
+                            <a href="#projects" class="btn primary-btn">
+                                <i class="fas fa-briefcase"></i>
+                                View My Work
+                            </a>
+                            <a href="#contact" class="btn secondary-btn">
+                                <i class="fas fa-envelope"></i>
+                                Get In Touch
+                            </a>
+                        </div>
+                    </div>
+                    <div class="hero-image">
+                        <div class="image-wrapper">
+                            <img src="sections/picture/bg.jpg" alt="Professional Photo of Marlith">
+                            <div class="image-border"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <a href="#about" aria-label="Scroll to About Section">
+                    <i class="fas fa-chevron-down"></i>
+                </a>
+            </div>
+        </section>
+
+        <section id="about" class="section about-us">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p class="intro-text">I am a passionate <strong>Information Technology student</strong> at a major university, specializing in front-end development and database management. My journey into tech started with curiosity about how the web works, which quickly turned into a dedicated pursuit of clean code and functional design.</p>
+                        
+                        <div class="about-grid">
+                            <div class="about-card">
+                                <div class="icon-wrapper">
+                                    <i class="fas fa-graduation-cap"></i>
+                                </div>
+                                <h3>Educational Background</h3>
+                                <p>Currently pursuing a <strong>Bachelor of Science in Information Technology (BSIT)</strong>. I'm focused on grasping the core principles of computer science while actively experimenting with modern web technologies outside the classroom. I believe in learning by doing, which drives my project-based approach.</p>
+                            </div>
+                            
+                            <div class="about-card">
+                                <div class="icon-wrapper">
+                                    <i class="fas fa-code"></i>
+                                </div>
+                                <h3>Technical Interests</h3>
+                                <ul>
+                                    <li>UI/UX principles and design thinking</li>
+                                    <li>Exploring serverless architectures</li>
+                                    <li>Understanding data structures and algorithms</li>
+                                    <li>Modern JavaScript frameworks and libraries</li>
+                                    <li>Database optimization and query performance</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="about-card">
+                                <div class="icon-wrapper">
+                                    <i class="fas fa-heart"></i>
+                                </div>
+                                <h3>Hobbies & Interests</h3>
+                                <ul>
+                                    <li>Hiking and outdoor adventures</li>
+                                    <li>Playing competitive chess (to hone problem-solving skills)</li>
+                                    <li>Contributing to small open-source projects</li>
+                                    <li>Reading tech blogs and staying updated with industry trends</li>
+                                    <li>Photography and digital art</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section skills-section">
+            <div class="container">
+                <h2 class="section-title">My Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <div class="skill-header">
+                            <i class="fas fa-laptop-code"></i>
+                            <h3>Programming & Frameworks</h3>
+                        </div>
+                        <div class="skill-list">
+                            <span class="skill-tag">HTML5</span>
+                            <span class="skill-tag">CSS3</span>
+                            <span class="skill-tag">JavaScript (ES6+)</span>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-category">
+                        <div class="skill-header">
+                            <i class="fas fa-network-wired"></i>
+                            <h3>Technical Areas</h3>
+                        </div>
+                        <div class="skill-list">
+                            <span class="skill-tag">Web Development</span>
+                            <span class="skill-tag">Basic Networking</span>
+                            <span class="skill-tag">Introduction to Cybersecurity</span>
+                            <span class="skill-tag">RESTful APIs</span>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-category">
+                        <div class="skill-header">
+                            <i class="fas fa-tools"></i>
+                            <h3>Tools & OS</h3>
+                        </div>
+                        <div class="skill-list">
+                            <span class="skill-tag">Git/GitHub</span>
+                            <span class="skill-tag">VS Code</span>
+                            <span class="skill-tag">Linux (Ubuntu)</span>
+                            <span class="skill-tag">Postman</span>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-category">
+                        <div class="skill-header">
+                            <i class="fas fa-users"></i>
+                            <h3>Soft Skills</h3>
+                        </div>
+                        <div class="skill-list">
+                            <span class="skill-tag">Teamwork</span>
+                            <span class="skill-tag">Collaboration</span>
+                            <span class="skill-tag">Communication</span>
+                            <span class="skill-tag">Time Management</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section projects-section">
+            <div class="container">
+                <h2 class="section-title">1st Year Projects</h2>
+                <p class="section-subtitle">Here are some projects I've worked on during my first year as an IT student</p>
+                <div class="project-container">
+                    <article class="project-card">
+                        <div class="project-image">
+                            <img src="family tree (2).jpg" alt="Personal Website Project">
+                            <div class="project-overlay">
+                                <a href="#" class="project-link" aria-label="View Project"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                    <h3>Personal Website</h3>
+                    <p class="project-desc">My first website project is my Personal website where I share my self, my hobbies, families, core memories and all. It's purpose was to share my personal interest and stories to other people, though simple yet meaningful for me.</p>
+                    <div class="project-details">
+                        <div class="detail-item">
+                            <i class="fas fa-user"></i>
+                            <div>
+                                <strong>Role:</strong> Lead Developer (UI & Logic)
+                            </div>
+                        </div>
+                                <div class="detail-item">
+                                    <i class="fas fa-tasks"></i>
+                                    <div>
+                                        <strong>Contributions:</strong> Designed the user interface, implemented all CRUD operations, and ensured data validation.
+                                    </div>
+                                </div>
+                                <div class="detail-item">
+                                    <i class="fas fa-code"></i>
+                                    <div>
+                                        <strong>Tools/Languages:</strong> HTML, CSS, Vanilla JavaScript, localStorage
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section contact-section">
+            <div class="container">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="contact-intro">I'm currently looking for internship opportunities and collaborative projects. Feel free to connect or send a message!</p>
+                
+                <div class="contact-wrapper">
+                    <form action="contact_handler.php" method="POST" class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">
+                                <i class="fas fa-user"></i>
+                                Your Name
+                            </label>
+                            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">
+                                <i class="fas fa-envelope"></i>
+                                Your Email
+                            </label>
+                            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">
+                                <i class="fas fa-comment"></i>
+                                Your Message
+                            </label>
+                            <textarea id="message" name="message" rows="6" placeholder="Tell me about your project or just say hello!" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn primary-btn">
+                            <i class="fas fa-paper-plane"></i>
+                            Send Message
+                        </button>
+                    </form>
+
+                    <div class="contact-details">
+                        <div class="contact-info-card">
+                            <div class="info-item">
+                                <div class="info-icon">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <div class="info-content">
+                                    <h4>Email</h4>
+                                    <a href="mailto:albaridamarlith@gmail.com">albaridamarlith@gmail.com</a>
+                                </div>
+                            </div>
+                            
+                            <div class="social-links">
+                                <h4>Connect With Me</h4>
+                                <div class="social-icons">
+                                    <a href="https://github.com/marlithalbarida-design/Portfolio" target="_blank" aria-label="GitHub Profile" class="social-link">
+                                        <i class="fab fa-github"></i>
+                                        <span>GitHub</span>
+                                    </a>
+                                    <a href="https://linkedin.com/in/Nicole" target="_blank" aria-label="LinkedIn Profile" class="social-link">
+                                        <i class="fab fa-linkedin"></i>
+                                        <span>LinkedIn</span>
+                                    </a>
+                                    <a href="https://www.facebook.com/share/1BxLXomEL2/" target="_blank" aria-label="Facebook Page" class="social-link">
+                                        <i class="fab fa-facebook-f"></i>
+                                        <span>Facebook</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Nicole. All rights reserved.</p>
+            <p style="margin-top: 0.5rem; font-size: 0.9rem; color: var(--text-secondary);">
+                Built with <i class="fas fa-heart" style="color: #ef4444;"></i> using PHP, HTML5, CSS3 & JavaScript
+            </p>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
